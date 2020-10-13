@@ -85,19 +85,23 @@ a:hover {
 }
 
 .mobile-nav-toggle i {
-    color: #320e55;
+    color: #f7f8f9 !important;
+}
+.mobile-nav-toggle i:hover {
+    color: #f07406 !important;
 }
 
 .mobile-nav {
-    background: #f7f8f9;
+    /*background: #f7f8f9;*/
+    background: rgba(32, 38, 41, 0.6) !important;
 }
 
 .mobile-nav a {
-    color: #320e55;
+    color: #f7f8f9 !important;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-    color: #f07406;
+    color: #f07406 !important;
 }
 
 .mobile-nav-overly {
@@ -116,7 +120,7 @@ a:hover {
 }
 
 #hero h2 {
-    color: #320e55;
+    color: #f07406 !important;
 }
 
 #hero .btn-get-started {
